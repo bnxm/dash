@@ -1,0 +1,62 @@
+name: dash
+description: A new Flutter project.
+publish_to: none
+
+version: 0.0.1+1
+
+environment:
+  sdk: ">=2.12.0-0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared:
+    path: ../shared/shared
+
+  auto_size_text: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/drawables/icons/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Montserrat/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Montserrat/Montserrat-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat/Montserrat-Bold.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat/Montserrat-ExtraBold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat/Montserrat-Black.ttf
+          weight: 800
+          
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik/Rubik-Light.ttf
+          weight: 200
+        - asset: assets/fonts/Rubik/Rubik-Regular.ttf
+          weight: 300
+        - asset: assets/fonts/Rubik/Rubik-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/Rubik/Rubik-Bold.ttf
+          weight: 500
+        - asset: assets/fonts/Rubik/Rubik-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Rubik/Rubik-ExtraBold.ttf
+          weight: 700
+        - asset: assets/fonts/Rubik/Rubik-Black.ttf
+          weight: 800
