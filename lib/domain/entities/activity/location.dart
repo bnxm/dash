@@ -1,15 +1,15 @@
 import 'package:shared/shared.dart';
 
-class Node extends Equatable {
+class Location extends Equatable {
   final LatLng latLng;
   final DateTime time;
   final double velocity;
   final double altitude;
-  const Node({
+  const Location({
     required this.latLng,
     required this.time,
-    required this.velocity,
-    required this.altitude,
+    this.velocity = 0.0,
+    this.altitude = 0.0,
   });
 
   @override

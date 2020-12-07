@@ -13,6 +13,9 @@ dependencies:
 
   shared:
     path: ../shared/shared
+  
+  background_location:
+    path: ../packages/background_location
 
   auto_size_text: ^2.1.0
 

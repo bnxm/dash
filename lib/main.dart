@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:shared/shared.dart';
 
+import 'injection.dart';
 import 'ui/ui.dart';
 
-void main() => runApp(Dash());
+void main() async {
+  await inject();
+  runApp(Dash());
+}
 
 class Dash extends StatelessWidget {
   static final List<AppTheme> themes = [
